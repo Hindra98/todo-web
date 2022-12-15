@@ -1,0 +1,71 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('img/concerta.jpg');
+  background-size: cover;
+}
+div.container {
+  margin-top: 20px;
+  padding: 20px;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+div.container nav {
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: rgba(255, 255, 0, 0.3);
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+div.container nav .active {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+form.addTask {
+  margin-top: 50px;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+form.addTask h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+form.addTask div input, form.addTask button, form.addTask select {
+  height: 60px;
+  padding: 10px;
+  font-size: 1.2em;
+}
+table {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+table td, th {
+  color: white;
+}
+table td span {
+  color: whitesmoke;
+}
+
+.recherche {
+  color: whitesmoke;
+  text-align: center;
+}
+.recherche input, .recherche button {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 50px;
+}
+#search_response {
+  color: whitesmoke;
+  border: 2px blue solid;
+  border-radius: 7px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
